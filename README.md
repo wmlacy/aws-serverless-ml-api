@@ -28,3 +28,9 @@ curl -X POST "$INVOKE_URL/predict" \
 - **AccessDenied from API Gateway**: Re-run `terraform apply`
 - **Cold starts slow**: Keep memory at 512–1024 MB
 - **Different region**: Update `REGION` in Makefile and Terraform vars
+
+## Why this project
+This project was built to demonstrate practical cloud engineering skills:
+deploying a machine learning model as a production-style, serverless API on AWS.
+The emphasis is on infrastructure, automation, and clean deployment rather than
+model complexity.
