@@ -3,9 +3,6 @@
 ## What it does
 Serverless churn-probability prediction API on AWS Lambda behind API Gateway. Input features: monthly_spend, tenure_months, num_support_tickets.
 
-## Demo
-![API Demo](demo.gif)
-
 ## Architecture
 - Dockerized Lambda (Python 3.11, scikit-learn)
 - API Gateway HTTP API
