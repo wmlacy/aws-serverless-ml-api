@@ -46,7 +46,6 @@ curl -X POST "$INVOKE_URL/predict" \
 - **Different region**: Update `REGION` in Makefile and Terraform vars
 
 ## Why this project
-This project was built to demonstrate practical cloud engineering skills:
-deploying a machine learning model as a production-style, serverless API on AWS.
-The emphasis is on infrastructure, automation, and clean deployment rather than
-model complexity.
+This project serves as a reference implementatation for building and deploying cloud-native APIs on AWS using serverless architecture and Infrastructure as Code.
+
+The emphasis is on repeatable deployment, clean system boundaries, and operational simplicity rather than application-level complexity.
