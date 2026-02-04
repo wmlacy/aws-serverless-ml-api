@@ -1,7 +1,9 @@
-# AWS ML Prediction API
+# Serverless AWS API (Lambda, API Gateway, Terraform)
 
 ## What it does
-Serverless churn-probability prediction API on AWS Lambda behind API Gateway. Input features: monthly_spend, tenure_months, num_support_tickets.
+Serverless API deployed on AWS using Lambda and API Gateway, demonstrating production-style cloud architecture and Infrastructure as Code practices.
+
+The example payload is a churn-probability prediction (input: `monthly_spend`, `tenure_months`, `num_support_tickets`), but the infrastructure patterns apply to any containerized workload.
 
 ## Architecture
 - Dockerized Lambda (Python 3.11, scikit-learn)
